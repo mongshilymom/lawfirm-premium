@@ -1,0 +1,74 @@
+1️⃣ Replit Agents 마스터 프롬프트 (우선순위 1)
+Create a premium law firm website with the following exact specifications:
+
+CORE ARCHITECTURE:
+- Next.js 14 with App Router
+- Tailwind CSS for styling
+- Framer Motion for micro-interactions
+- Responsive design (mobile-first)
+
+MUST-HAVE SECTIONS:
+1. Hero Section
+   - Full viewport height
+   - Parallax background with law office imagery
+   - Floating navigation bar (transparent → solid on scroll)
+   - CTA: "무료 법률 상담 신청" button (fixed position)
+
+2. Practice Areas Grid
+   - 6 main areas in 2x3 grid
+   - Hover effect: Scale 1.05 with shadow elevation
+   - Icons: Lucide React legal icons
+   - Each card links to detailed service page
+
+3. Attorney Profiles
+   - Horizontal scroll on mobile, grid on desktop
+   - Professional headshots placeholder
+   - Credentials prominently displayed
+   - "Profile View" counter (social proof)
+
+4. Case Results Ticker
+   - Animated number counter for success metrics
+   - "₩50억+ 승소 판결" style achievements
+   - Auto-scrolling testimonials
+
+5. Contact Section
+   - Kakao Talk integration button
+   - Office location with Naver Map embed
+   - Working hours display
+   - Emergency hotline highlight
+
+COLOR SCHEME:
+- Primary: #1a365d (Navy Blue)
+- Secondary: #c9a961 (Gold)
+- Background: #fafafa
+- Text: #2d3748
+
+PERFORMANCE REQUIREMENTS:
+- Lighthouse score > 95
+- Loading time < 2 seconds
+- SEO optimized meta tags
+- Open Graph implementation
+
+DATABASE SCHEMA (Supabase):
+- attorneys table
+- practice_areas table  
+- case_studies table
+- consultations table
+
+Include Korean language support throughout.
+2️⃣ UI 차별화 전략 (우선순위 2)
+Add these premium UI features:
+
+1. Floating WhatsApp-style consultation button
+2. Reading progress bar (top of viewport)
+3. Smooth scroll with section indicators
+4. Dark mode toggle with localStorage
+5. Accessibility features (WCAG 2.1 AA compliant)
+3️⃣ 수익화 컴포넌트 (우선순위 3)
+Implement conversion optimization:
+
+1. Exit-intent popup with special offer
+2. A/B testing setup for CTA buttons
+3. Google Analytics 4 integration
+4. Hotjar heatmap tracking code
+5. Lead capture form with validation
